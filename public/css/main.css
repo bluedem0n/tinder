@@ -1,0 +1,115 @@
+a{
+	text-decoration: none;
+}
+/*Registro*/
+.img-registro{
+	width: 60%;
+	margin: 0 auto;
+}
+.titulo-registro{
+	margin: 15px 0;
+}
+.terminos-y-condiciones{
+	font-size: 10px;
+	color: gray;
+	margin: 15px 30px;
+}
+.btn-fb{
+	background-color: #4864B4;
+}
+/*PERFIL*/
+.usuario-perfil{
+	width: 25%;
+	margin: 25px 0;
+}
+.mensaje-perfil{
+	width: 28%;
+	margin: 19px 0;
+}
+/*Búsqueda cercana*/
+.opcion-chica{
+	padding: 12px;
+	border-radius: 50%;
+	border: 3px gainsboro solid;
+	color: gainsboro;
+	font-size: 19px;
+}
+.opcion-grande{
+	padding: 18px;
+	border-radius: 50%;
+	border: 3px gainsboro solid;
+	color: gainsboro;
+	font-size: 22px;
+}
+.opcion-chica:hover{
+	-webkit-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);
+}
+.opcion-grande:hover{
+	-webkit-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);
+}
+.usuario-buscar{
+	width: 40%;
+	margin: 80px auto;
+
+}
+.text-busqueda{
+	color: darkgrey;
+	text-align: center;
+}
+.opciones-iconos{
+	margin-top: 15px;
+}
+.volver-icono:hover, .volver-icono-color{
+	color: orange;
+}
+.equis-icono:hover, .equis-icono-color{
+	color: red;
+}
+.corazon-icono:hover, .corazon-icono-color{
+	color: mediumseagreen;
+}
+.estrella-icono:hover, .estrella-icono-color{
+	color: skyblue;
+}
+/*MATCH*/
+#outer-dropzone {
+	height: 300px;
+	width: 189px;
+	display: inline-block;
+	float: left;
+	position: absolute;
+}
+#outer-dropzone2{
+	height: 300px;
+	width: 150px;
+	display: inline-block;
+	float: right;
+	padding-left: 165px;
+}
+
+.dropzone {
+	background-color: transparent;
+
+	padding: 10px;
+	width: 80%;
+}
+
+.drag-drop {
+	position: absolute;
+	left: 60px;
+	width: 50%;
+	height: 300px;
+	padding: 100px;
+	color: #fff;
+	background-color: black;
+
+}
+
+.drag-drop.can-drop {
+	color: #000;
+	background-color: #4e4;
+}

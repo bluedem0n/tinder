@@ -1,0 +1,27 @@
+{
+  "name": "tinder-final",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sthecrash/tinder-final.git"
+  },
+  "keywords": [
+    "Tinder",
+    "Match"
+  ],
+  "author": "Sthefany , Liz , Michelle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sthecrash/tinder-final/issues"
+  },
+  "homepage": "https://github.com/sthecrash/tinder-final#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
